@@ -16,8 +16,7 @@ export default defineConfig({
     type: 'browser',
   },
   locale: {
-    // default zh-CN
-    default: 'zh-CN',
+    default: 'pt-BR',
     antd: true,
     // default true, when it is true, will use `navigator.language` overwrite default
     baseNavigator: true,
@@ -28,9 +27,7 @@ export default defineConfig({
   targets: {
     ie: 11,
   },
-  // umi routes: https://umijs.org/docs/routing
   routes,
-  // Theme for antd: https://ant.design/docs/react/customize-theme-cn
   theme: {
     'primary-color': defaultSettings.primaryColor,
   },
